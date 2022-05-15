@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/acceuil_p.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_acceuil_p.xml" value="0.16077898550724637" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_ajout_produit.xml" value="0.21" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_inscrit_user.xml" value="0.21" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_main2.xml" value="0.12604166666666666" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_produitlist.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/activity_produits_list.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/ajout_produit.xml" value="0.22" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/choix_produit.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/inscrit_user.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/inscrit_user1.xml" value="0.25" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/item.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/produitslist.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/layout/suppression_user.xml" value="0.17074275362318841" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/menu/user_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/GL/2eme semestre/VenteProduit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/activity_ajout_produit.xml" value="0.209375" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/activity_produitlist.xml" value="0.209375" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/activity_suppression_user.xml" value="0.1953125" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/choix_produit.xml" value="0.1" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/inscrit_user1.xml" value="0.209375" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/item.xml" value="0.33" />
+        <entry key="..\:/Users/Heythem/Desktop/Folders/University_Studies/GLSI-C/Semestre_2/Dev_Mobile_Android/apps/VenteProduit/app/src/main/res/layout/suppression_user.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

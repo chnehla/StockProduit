@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/inscrit"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ins"></ImageView>
+
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inscrit"
+            android:layout_centerHorizontal="true"
+            android:text="Inscription"
+            android:textColor="@color/colorPrimaryDark1"
+            android:textSize="20pt"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:hint="taper votre nom"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAllCaps="false"></EditText>
+
+            <EditText
+                android:id="@+id/prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="taper votre prénom"
+                android:inputType="text"
+                android:minHeight="48dp"></EditText>
+
+            <EditText
+                android:id="@+id/num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="taper votre téléphone"
+                android:inputType="phone"
+                android:minHeight="48dp"></EditText>
+
+            <EditText
+                android:id="@+id/regemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="taper votre email"
+                android:inputType="text"
+                android:minHeight="48dp"></EditText>
+
+            <EditText
+                android:id="@+id/psswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="taper votre mot de passe"
+                android:inputType="textPassword"
+                android:minHeight="48dp"></EditText>
+
+            <EditText
+                android:id="@+id/cnfpsswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="confirmer votre mot de passe"
+                android:inputType="textPassword"
+                android:minHeight="48dp"></EditText>
+
+            <Button
+                android:id="@+id/btn_inscrit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary"
+                android:onClick="inscrit"
+                android:text="Inscrit"
+                android:textAllCaps="false"
+                android:textColor="#F3EBE9"
+                android:textSize="18sp"></Button>
+
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>

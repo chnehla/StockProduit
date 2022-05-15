@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/bg"
+        >
+
+        <ImageView
+            android:id="@+id/product"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/product"></ImageView>
+
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product"
+            android:layout_centerHorizontal="true"
+            android:text="Ajout Produit"
+            android:textColor="@color/colorPrimaryDark1"
+            android:textSize="20pt"></TextView>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/txtview"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            >
+
+            <EditText
+                android:id="@+id/pnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="taper le nom du produit"
+                android:inputType="text"
+                android:minHeight="48dp"></EditText>
+
+            <EditText
+                android:id="@+id/cprod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="taper la catégorie du produit"
+                android:inputType="text"
+                android:minHeight="48dp"></EditText>
+
+            <EditText
+                android:id="@+id/prixp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="taper le prix du produit"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"></EditText>
+
+            <Button
+                android:id="@+id/btn_ajprod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary"
+                android:onClick="ajoutp"
+                android:text="Ajouter"
+                android:textAllCaps="false"
+                android:textColor="#F3EBE9"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout></ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/ajoutp"
+        android:icon="@drawable/ajou"
+        android:title="ajouter produit"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item android:id="@+id/profilU"
+        android:icon="@drawable/profil"
+        android:title="Votre Profil"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/userD"
+                android:title="Déconnection"
+                android:icon="@drawable/lock"
+                app:showAsAction="never"/>
+            <item android:id="@+id/userS"
+                android:title="Supprimer mon compte"
+                android:icon="@drawable/supp"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
